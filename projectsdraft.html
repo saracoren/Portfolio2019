@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sara Coren</title>
+    <link rel="stylesheet" type="" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+    <style>
+      nav a {
+        color: black;
+      }
+      img {
+        width: 90%;
+      }
+      .car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.car-container > img {
+  width: 60%;
+}
+/* .container > h1 { */
+  /* font-family: 'Montserrat', impact; */
+  /* font-weight: 800; */
+  /* font-size: 2.5em; */
+  /* margin-top: -1%; */
+  /* color: black; */
+  /* text-shadow: 1px 1px #f2cd99; */
+  /* letter-spacing: 2px; */
+/* } */
+/* ======= CAROUSEL SECTION ======== */
+.carousel-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.carousel-images {
+  width: 80%;
+  background: black;
+  padding: 10px;
+  /* border-radius: 10px; */
+  box-sizing: border-box;
+  box-shadow: 2px 2px #f2cd99;
+}
+.carousel-images img {
+  width: 100%;
+  /* border-radius: 10px; */
+}
+.carousel-images img:first-of-type {
+  display: block;
+}
+.carousel-button {
+  align-self: center;
+  background: lightgray;
+  color: #888;
+  padding: 10px;
+  /* border-radius: 50%; */
+  text-align: center;
+  box-shadow: 1px 1px gray;
+}
+.carousel-button:hover {
+  cursor: pointer;
+  background: #fa8d8e;
+  box-shadow: 1px 1px #f2cd99;
+  color: white;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+        <div class="nav-wrapper">
+            <a href="home.html" class="brand-logo">Sara Coren</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="SaraCorenResume2019.pdf" target="_blank">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- <div class="car-container">
+        <h1>Previous Projects</h1>
+        <div class="carousel-container">
+          <div class="carousel-button previous">
+            <span class="lnr lnr-chevron-left"></span>
+          </div>
+          <div class="carousel-images">
+            <img src="My-Book-List-App.png" alt="corgi looking cute">
+            <img src="Un-Boxed-Preview.png" alt="corgi looking cute in a hotdog costume">
+            <img src="BucketBuddy.png" alt="corgi looking cute in a hotdog costume">
+          </div>
+          <div class="carousel-button next">
+            <span class="lnr lnr-chevron-right"></span>
+          </div>
+        </div>
+      </div> -->
+    <div class="container">
+    <div class="col s12 m7 l7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="Un-Boxed-Preview.png">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h5>Un-Boxed</h5>
+              <p>Un-Boxed is a website that serves as a community for out-of-the-box thinkers to post information about products, news, events, and media around the topic of innovation.  My inspiration for this project stems from my own inclination to find creative solutions to problems through uncoventional approaches.  Through this site, other creative thinkers can come together to share their their own innovative discoveries with a wider audience of likeminded peers.</p>
+            </div>
+            <div class="card-action">
+              <a class="red-text" href="#">Go to Site</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="col s12 m7 l7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="My-Book-List-App.png">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h5>My Book List</h5>
+              <p>My Book List is a simple app that can be used by anyone who wants to keep track of the books the want to read and the books they have finished reading.  However, as a former elementary teacher, my original inspiration was for emerging readers to use this app as a tool to be prepared for idependent reading time and to make sure they persevere to finish one book before moving on to the next one.</p>
+            </div>
+            <div class="card-action">
+              <a class="red-text" href="#">Go to Site</a>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="carousel carousel-slider center">
+    <div class="carousel-fixed-item center">
+      <a class="btn waves-effect white grey-text darken-text-2">button</a>
+    </div>
+    <div class="carousel-item red white-text" href="#one!">
+      <h2>First Panel</h2>
+      <p class="white-text">This is your first panel</p>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Second Panel</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Third Panel</h2>
+      <p class="white-text">This is your third panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">This is your fourth panel</p>
+    </div>
+  </div>
+        
+</body>
+</html>
