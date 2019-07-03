@@ -1,6 +1,8 @@
-body {
+html, body {
     background: #eeeded;
     /* min-height: 100vh; */
+    height: 100%;
+    margin: 0;
 
 }
 /* home.html */
@@ -67,8 +69,12 @@ align-content: center;
 align-items: center;
 }
 
+.push {
+    height: 100px;
+}
 .big-wrapper {
-    height: 100vh;
+    min-height: 100%;
+    margin-bottom: -100px;
 }
 /* 
 @media (max-width: 600px) {
