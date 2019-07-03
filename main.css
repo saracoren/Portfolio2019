@@ -1,5 +1,7 @@
 body {
     background: #eeeded;
+    /* min-height: 100vh; */
+
 }
 /* home.html */
 .intro-div {
@@ -68,15 +70,15 @@ align-items: center;
 .big-wrapper {
     height: 100vh;
 }
-
+/* 
 @media (max-width: 600px) {
     body {
       background-color: lightblue;
     }
     .card {
-        /* height: 800px; */
+        height: 800px;
     }
-}
+} */
 /* .container {
     width: 80%;
 }
